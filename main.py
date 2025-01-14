@@ -73,7 +73,7 @@ def start_program():
     root = customtkinter.CTk()
     customtkinter.set_appearance_mode("dark")
     customtkinter.set_default_color_theme("green")
-    root.title("Sverker")
+    root.title(software_name)
     root.geometry("700x400")
 
     return root
